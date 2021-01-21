@@ -11,9 +11,9 @@ $(document).ready(function() {
 function initializePage() {
 	$("#testjs").click(function(e) {
 
-		$('.jumbotron h1').text("Javascript is connected");
-		// $('.jumbotron h1').text("HAHA YOU CLICKED A BUTTON!");
-		// $("#testjs").text("Please wait...");
+		// $('.jumbotron h1').text("Javascript is connected");
+		$('.jumbotron h1').text("HAHA YOU CLICKED A BUTTON!");
+		$("#testjs").text("Please wait...");
 		// $(".jumbotron p").addClass("active");
 		$(".jumbotron p").toggleClass("active");
 
